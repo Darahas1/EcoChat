@@ -1,0 +1,8 @@
+langchain-google-genai 
+langchain-huggingface 
+langchain-pinecone 
+langchain-community 
+pinecone-client 
+google-api-python-client 
+google-auth 
+Pandas
