@@ -105,7 +105,7 @@ streamlit run app.py
 ```
 
 ### sample output
-<img src = "chat_csv output.jpg">
+<img src = "chat_csv output.jpg" alt = "sample_output_img" />
 
 <br>
 
