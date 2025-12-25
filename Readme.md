@@ -23,7 +23,7 @@
 <br>
 
 
-## 📖 Overview
+## Overview
 
 **EcoChat** is an interactive **Retrieval-Augmented Generation (RAG)** application that allows users to "chat" with their raw CSV data. Instead of writing complex SQL queries or Pandas code, you can simply ask questions like *"Who is the Manager?"* or *"What is the total salary budget?"*.
 
@@ -34,18 +34,18 @@ The name EcoChat stands for 'Economical', emphasizing that the entire pipeline i
 
 <br>
 
-## ✨ Key Features
+## Key Features
 
-* **☁️ Cloud Integration:** Fetches CSV files directly from Google Drive via Service Account.
-* **🧠 Free Embeddings:** Utilizes local HuggingFace models (`all-mpnet-base-v2`) for zero-cost vectorization.
-* **⚡ Vector Search:** Implements Pinecone (Serverless) for fast, semantic information retrieval.
-* **🤖 Smart AI:** Powered by Google's gemini-flash-latest for accurate context generation.
-* **🎨 Interface:** Includes a beautiful **Streamlit Web UI**.
+* **Cloud Integration:** Fetches CSV files directly from Google Drive via Service Account.
+* **Free Embeddings:** Utilizes local HuggingFace models (`all-mpnet-base-v2`) for zero-cost vectorization.
+* **Vector Search:** Implements Pinecone (Serverless) for fast, semantic information retrieval.
+* **Smart AI:** Powered by Google's gemini-flash-latest for accurate context generation.
+* **Interface:** Includes a beautiful **Streamlit Web UI**.
 
 <br>
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ The name EcoChat stands for 'Economical', emphasizing that the entire pipeline i
 
 <br>
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Before running the project, ensure you have the following keys:
 
@@ -75,12 +75,11 @@ Before running the project, ensure you have the following keys:
 
 <br>
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/chat-with-csv.git](https://github.com/your-username/chat-with-csv.git)
-cd chat-with-csv
+git clone https://github.com/Darahas1/EcoChat.git
 ```
 
 ### 2. Install Dependencies
@@ -90,7 +89,7 @@ pip install -r requirements.txt
 
 ### 3. Configure Environment Variables
 ```
->> .env file content (below) <<
+# .env file content (below)
 
 PINECONE_API_KEY=pa-xxxx-xxxx-xxxx
 GOOGLE_API_KEY=AIzaSyxxxxxxxxx
@@ -124,10 +123,10 @@ You have exceeded the free quota or are using a restricted model (like 2.0 Flash
 
 
 You must explicitly share the CSV file on Google Drive with the email address found inside your <code>service_account.json</code> file. </details>
-
 <br>
 
 ### 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Darahas1/EcoChat/blob/main/LICENSE) file for details.
+<br>
 
 <div align="center"> <sub>Built with 💚 by Sai Darahas</sub> </div>
